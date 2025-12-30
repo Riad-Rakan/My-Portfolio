@@ -85,7 +85,7 @@ export const personalData = {
       title: "Kineplus Mesotherapy",
       tech: "React & CSS",
       desc: "A professional business website designed for a mesotherapy clinic to showcase services and patient information.",
-      link: "https://github.com/Riad-Rakan/ck-kgit push -u origin main --forceineplus"
+      link: "https://github.com/Riad-Rakan/ck-kineplus"
     }
   ]
 };
