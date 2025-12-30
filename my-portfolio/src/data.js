@@ -70,19 +70,22 @@ export const personalData = {
       id: 1,
       title: "Personal Protfolio",
       tech: "React & Three.js",
-      desc: "A 3D interactive portfolio experience."
+      desc: "A 3D interactive portfolio experience.",
+      link: "https://github.com/Riad-Rakan/My-Portfolio"
+    },
+    {
+      id: 2,
+      title: "Beyond the Singularity",
+      tech: "GoDot, C, Phython",
+      desc: "A 2D space shooter game in development.",
+      link: "https://github.com/Riad-Rakan"
     },
     {
       id: 3,
-      title: "Beyond the Singularity",
-      tech: "GoDot, C, Phython",
-      desc: "A 2D space shooter game in development."
-    },
-    {
-      id: 4,
-      title: "Neon Dash",
-      tech: "Game Engine",
-      desc: "A procedurally generated platformer game."
+      title: "Kineplus Mesotherapy",
+      tech: "React & CSS",
+      desc: "A professional business website designed for a mesotherapy clinic to showcase services and patient information.",
+      link: "https://github.com/Riad-Rakan/ck-kgit push -u origin main --forceineplus"
     }
   ]
 };

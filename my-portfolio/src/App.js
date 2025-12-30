@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
 import { personalData } from './data';
-import { Github, Linkedin, Mail, ExternalLink, Code, Briefcase, User } from 'lucide-react';
+import { Github, Mail, ExternalLink, Code, Briefcase, User } from 'lucide-react';
 
 function App() {
   // Simple mouse tracking for background effect
@@ -84,9 +84,18 @@ function App() {
                   {project.tech}
                 </span>
                 <p style={{ color: '#94a3b8', marginTop: '1rem' }}>{project.desc}</p>
-                <a href="#" style={{ color: '#38bdf8', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '5px', fontSize: '0.9rem' }}>
-                  View Project <ExternalLink size={14} />
-                </a>
+                
+                {/* UPDATED LINK LOGIC HERE */}
+                {project.link && (
+                  <a 
+                    href={project.link} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    style={{ color: '#38bdf8', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '5px', fontSize: '0.9rem' }}
+                  >
+                    View Project <ExternalLink size={14} />
+                  </a>
+                )}
               </div>
             ))}
           </div>
