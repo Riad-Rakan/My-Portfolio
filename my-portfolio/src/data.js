@@ -72,9 +72,10 @@ export const personalData = {
     {
       id: 1,
       title: "Personal Protfolio",
-      tech: "React & Three.js",
-      desc: "A 3D interactive portfolio experience.",
+      tech: "React, CSS & Cloudflare",
+      desc: "Built a responsive personal website using React with a custom glassmorphism design. Implemented a full CI/CD pipeline for automated deployment via GitHub and Cloudflare Pages.",
       link: "https://github.com/Riad-Rakan/My-Portfolio"
+
     },
     {
       id: 2,
@@ -92,10 +93,9 @@ export const personalData = {
     },
     {
       id: 4,
-      title: "Personal Portfolio",
-      tech: "React, CSS & Cloudflare",
-      desc: "Built a responsive personal website using React with a custom glassmorphism design. Implemented a full CI/CD pipeline for automated deployment via GitHub and Cloudflare Pages.",
-      link: "https://github.com/Riad-Rakan/My-Portfolio" // This links to your code so people can see how you built it
+      title: "Autonomous Hovercraft",
+      tech: "C, Arduino & Assembly, Lead",
+      desc: "Led a 6-member team to design an autonomous hovercraft using Arduino. Integrated ultrasonic & IR sensors for obstacle avoidance and optimized propulsion using fluid dynamics principles.",
     },
     {
       id: 5,
