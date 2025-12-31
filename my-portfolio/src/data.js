@@ -92,13 +92,20 @@ export const personalData = {
     },
     {
       id: 4,
+      title: "Personal Portfolio",
+      tech: "React, CSS & Cloudflare",
+      desc: "Built a responsive personal website using React with a custom glassmorphism design. Implemented a full CI/CD pipeline for automated deployment via GitHub and Cloudflare Pages.",
+      link: "https://github.com/Riad-Rakan/My-Portfolio" // This links to your code so people can see how you built it
+    },
+    {
+      id: 5,
       title: "Autonomous Drone Firmware",
       tech: "C, Python & MATLAB",
       desc: "Developed custom flight controller firmware from the ground up, featuring autonomous navigation using GPS/IMU sensors and Unreal Engine simulations.",
       link: "https://github.com/Riad-Rakan/DroneProject" 
     },
     {
-      id: 5,
+      id: 6,
       title: "Study Space Web App",
       tech: "React, Node.js & Firebase",
       desc: "A full-stack student platform featuring real-time chat, note sharing, and secure authentication using Firebase and Firestore.",
