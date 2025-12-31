@@ -5,7 +5,7 @@ import { personalData } from './data';
 import { Github, Mail, ExternalLink, Code, Briefcase, User } from 'lucide-react';
 
 function App() {
-  // Simple mouse tracking for background effect
+  // Simple mouse tracking background effects
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
@@ -85,7 +85,7 @@ function App() {
                 </span>
                 <p style={{ color: '#94a3b8', marginTop: '1rem' }}>{project.desc}</p>
                 
-                {/* UPDATED LINK LOGIC HERE */}
+                {}
                 {project.link && (
                   <a 
                     href={project.link} 
