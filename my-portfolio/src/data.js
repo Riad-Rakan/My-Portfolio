@@ -1,6 +1,7 @@
 // src/data.js
 
 export const personalData = {
+  // Ladning Page Information
   name: "Riad Rakan",
   title: "Computer Engineering Student | Embedded Systems & Software Developer",
   email: "rakanrriad@gmail.com",
@@ -11,6 +12,7 @@ export const personalData = {
             , "Linux (Debian), Bash", "Embedded systems", "Low-level programming", "Godot 4.x, Unity, Unreal Engine 5"
             , "MATLAB / Simulink"
   ],
+  // Data Inserted into the Experience Sub-Section
   experience: [
     {
       id: 1,
@@ -65,6 +67,7 @@ export const personalData = {
     },
 
   ],
+  // Data Inserted into the Projects Sub-Section
   projects: [
     {
       id: 1,
