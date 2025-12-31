@@ -86,6 +86,20 @@ export const personalData = {
       tech: "React & CSS",
       desc: "A professional business website designed for a mesotherapy clinic to showcase services and patient information.",
       link: "https://github.com/Riad-Rakan/ck-kineplus"
+    },
+    {
+      id: 4,
+      title: "Autonomous Drone Firmware",
+      tech: "C, Python & MATLAB",
+      desc: "Developed custom flight controller firmware from the ground up, featuring autonomous navigation using GPS/IMU sensors and Unreal Engine simulations.",
+      link: "https://github.com/Riad-Rakan/DroneProject" 
+    },
+    {
+      id: 5,
+      title: "Study Space Web App",
+      tech: "React, Node.js & Firebase",
+      desc: "A full-stack student platform featuring real-time chat, note sharing, and secure authentication using Firebase and Firestore.",
+      link: "https://github.com/KaileeSantucci/SOEN341" 
     }
   ]
 };
